@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+    <style>
+
+        body {
+            background-color: deepskyblue;
+        }
+
+        #container {
+            position: absolute;
+            top: 15%;
+            left: 30%;
+            width: 40%;
+            height: 70%;
+            background-color: white;
+            border-radius: 13px;
+        }
+
+        #form-box {
+            position: absolute;
+            top: 20%;
+            left: 20%;
+            /* margin-left: auto; */
+            /* margin-right: auto; */
+            /* border: 2px solid black; */
+            height: 60%;
+            width: 60%;
+        }
+
+        #logo {
+            position: relative;
+            left: 30%;
+        }
+
+        #form {
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        }
+
+        .row {
+            margin-top: 15px;
+        }
+
+        #form input {
+            outline: 0;
+            border-width: 0 0 2px;
+            border-color: lightgray;
+            margin-left: 10px;
+            width: 200px;
+            color: lightgray;
+        }
+
+        button {
+            margin-top: 40px;
+            background-color: #FE3363;
+            border: none;
+            border-radius: 50px;
+            width: 240px;
+            padding: 9px;
+            color: white;
+        }
+
+        ::placeholder {
+            opacity: 0.5;
+            color: grey;
+            font-size: 16px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        <div id="form-box">
+            <div id="logo"><img src="ex1_brand_icon.png" alt="" srcset=""></div>
+            <div id="form">
+                <form action="">
+                    <div class="row">
+                        <img src="ex1_username_icon.png" alt="">
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="row">
+                        <img src="ex1_password_icon.png" alt="">
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <button>Log In</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
