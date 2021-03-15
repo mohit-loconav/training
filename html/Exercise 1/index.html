@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 1</title>
+  <style>
+
+    body {
+      background-color: #3ca2e0;
+    }
+
+    #container {
+      margin: 145px auto 0px auto;
+      width: 37%;
+      height: 528px;
+      background-color: #fff;
+      border-radius: 13px;
+    }
+
+    #form-box {
+      margin: auto;
+      padding: 64px;
+      width: 330px;
+      height: 80%;
+    }
+
+    #logo {
+      margin: auto;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    #logo img {
+      width: 110px;
+      height: auto;
+    }
+
+    #form {
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    .row {
+      margin: auto;
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    .row img {
+      width: 18px;
+      height: auto;
+      margin-top: 5px;
+    }
+
+    #form input {
+      outline: 0;
+      border-width: 0 0 2px;
+      border-color: #D3D3D3;
+      margin-left: 10px;
+      width: 200px;
+      color: #808080;
+      font-weight: 500;
+      font-size: 1em;
+      padding: 0px 0px 8px 10px;
+    }
+
+    button {
+      margin-top: 50px;
+      margin-left: 15px;
+      background-color: #FE3363;
+      border: none;
+      border-radius: 50px;
+      width: 240px;
+      padding: 9px;
+      color: #fff;
+    }
+
+    ::placeholder {
+      opacity: 0.5;
+      color: #808080;
+      font-size: 16px;
+    }
+
+    .icon {
+      vertical-align: -2px;
+    }
+
+  </style>
+</head>
+<body>
+  
+  <div id="container">
+    <div id="form-box">
+      <div id="logo"><img src="ex1_brand_icon.png"></div>
+      <div id="form">
+        <form action="">
+          <div class="row">
+            <i class="icon">
+              <img src="ex1_username_icon.png">
+            </i>
+            <input type="text" placeholder="Name">
+          </div>
+          <div class="row">
+            <i class="icon">
+              <img src="ex1_password_icon.png">
+            </i>
+            <input type="password" placeholder="Password">
+          </div>
+          <button>Log In</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
