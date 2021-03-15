@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+  <title>Exercise 2</title>
+
+  <style>
+
+    * {
+      font-family: 'Raleway',sans-serif;
+    }
+
+    #container {
+      width: 90%;
+      margin-left: 40px;
+      margin-right: 40px;
+      display: inline-flex;
+    }
+
+    #content {
+      width: 60%;
+    }
+
+    h2 {
+      font-size: 30px;
+      font-weight: 700;
+      text-align: center;
+      color: #333;
+    }
+
+    #form, #content {
+      margin: 40px;
+    }
+
+    #form {
+      margin-top: 60px;
+      width: 320px;
+      height: 400px;
+      box-shadow: 0 0 70px gray ;
+      padding: 40px;
+    }
+
+    #form-heading {
+      margin-left: auto;
+    }
+
+    .row {
+      display: inline-flex;
+    }
+
+    .icon {
+      margin-left: auto;
+      height: 80px;
+      width: auto;
+    }
+
+    .content-box {
+      text-align: center;
+      margin: 15px 0px;
+      width: 341px;
+      padding: 15px;
+    }
+
+    .content-box-heading {
+      font-weight: 700;
+      color: #303234;
+    }
+
+    .content-box-body {
+      font-weight: 300;
+      color: #888;
+      font-size: 18px;
+    }
+
+    #content h1 {
+      text-align: center;
+    }
+
+    .fields-1 {
+      height: 40px;
+      border: none;
+      margin-bottom: 20px;
+
+    }
+
+    .form-input-1 {
+      padding: 5px 15px;
+      width: 100%;
+      height: 45px;
+      border: 1px solid #e1e1e1;
+      font-weight: 300;
+      box-sizing: border-box;
+    }
+
+    #form-heading {
+      font-weight: 700;
+      font-size: 18px;
+    }
+
+    #select {
+      font-size: 14px;
+      margin-top: 30px;
+      margin-bottom: 25px;
+    }
+
+    .select-options {
+      border: 1px solid #e1e1e1;
+      display: inline;
+      padding: 10px 28px;
+      text-align: center;
+      font-weight: 300;
+      color: #999;
+    }
+
+    button {
+      margin-top: 40px;
+      border-radius: 5px;
+      background: #1eacb2;
+      color: #fff;
+      width: 100%;
+      font-size: 18px;
+      font-weight: 600;
+      height: 60px;
+      border: none;
+      cursor: pointer;
+    }
+
+    #call {
+      margin-top: 30px;
+      text-align: center;
+      color: #888;
+    }
+
+    .highlight {
+      color: #4786BD;
+    }
+
+  </style>
+
+</head>
+<body>
+  <div id="container">
+
+    <div id="content">
+      
+      <h2>Why Loconav's Vehicle Tracking System?</h2>
+
+      <div class="row">
+        <div class="content-box">
+          <img src="ex2_intelligent_vehicle_tracking.png" alt="" class="icon">
+          <p class="content-box-heading">INTELLIGENT VEHICLE TRACKING</p>
+          <p class="content-box-body">Whether you are a single vehicle or a <span class="highlight">fleet owner</span>, Loconav is determined to protect and monitor your asset from theft or harm</p>
+        </div>
+        <div class="content-box">
+          <img src="ex2_vehicle_lock.png" alt="" class="icon">
+          <p class="content-box-heading">VEHICLE LOCK</p>
+          <p class="content-box-body">Turn on vehicle lock from Loconav's <span class="highlight">mobile app</span> and be assured that your vehicle won't start without your permission</p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="content-box">
+          <img src="ex2_live_alerts.png" alt="" class="icon">
+          <p class="content-box-heading">LIVE ALERTS</p>
+          <p class="content-box-body">Get live over-speeding alerts, alerts on entry and exit points, monitor idling in real time, etc. Vehicle services and maintainance alerts</p>
+        </div>
+        <div class="content-box">
+          <img src="ex2_vehicle_health.png" alt="" class="icon">
+          <p class="content-box-heading">VEHICLE HEALTH</p>
+          <p class="content-box-body">Get diagnostic, mileage and health report of your vehicle so that you can worry less about your vehicle's well-being and enjoy your time on road.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="form">
+
+      <form action="">
+        
+        <p id="form-heading">Get an offer on your mobile</p>
+
+        <div class="fields-1">
+          <input type="text" placeholder="Phone Number" class="form-input-1">
+        </div>
+        
+        <div class="fields-1">
+          <input type="text" placeholder="How Many Vehicles?" class="form-input-1">
+        </div>
+        
+        <p id="select">Select Your Vehicle</p>
+        <div class="select">
+          <div class="select-options">Truck</div>
+          <div class="select-options">Car</div>
+          <div class="select-options">Others</div>
+        </div>
+
+        <button>GET STARTED</button>
+
+        <p id="call">Call us: +918448881390</p>
+
+      </form>
+
+    </div>
+
+  </div>
+</body>
+</html>
