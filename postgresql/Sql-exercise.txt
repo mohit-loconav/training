@@ -1,0 +1,43 @@
+
+Display the last name and job title of all employees who do not have a manager
+
+Display the names and salaries of all employees in reverse salary order
+
+Display the maximum,minium and average salary commission earned
+
+Display the department number,total salary payout and total commission payout for each department
+
+Select the maximum salary of each department along with the department india
+
+Display the comission, if not null, display 10% of salary, if null display a default value 1
+
+Create a query that displays the name , job, department name, salary, grade for all the employees.
+    Derive grade based on salary(>=50000=A,>=30000=B,<30000=C)
+
+Display the average of sum of the salaries and group the result with the deparment id. Order the result with the department id.
+
+Display the names and department name of all employees working in the same city as Trenna
+
+Display employee name if it's a palindrome
+
+display the employee last name and departmnet name of all employess who have an 'a' in their name
+
+Create a unique list of all jobs that are in department 4. Include the location of the departmnet in the output
+
+FInd the subcategories that have at least two different prices less than $15
+
+Find sales prices of product 718 that are less than the list price recommnded for that product
+
+Display product number,description and sales of each prodcut in the year 2001
+
+DIsplay the last name and salary of every employee who reports to FILLMORE.
+
+Display the department number,last name and job ID for every employee in the OPERATIONS department
+
+Display the Managers with top three salaries along with their salaries and department information
+
+Fetch the previous Qaurter's second week's first day's date
+
+Calculate experience of the employee till date in Years and months(Example 1 year and 3 months)
+
+
