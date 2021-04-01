@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Reduce!</title>
+  <link rel="stylesheet" href="../../base.css" type="css">
+</head>
+
+<body>
+  <script>
+    // Grab all the text from a web page
+    // Count how many times each letter and number occurs
+    const pageHTML = document.body.textContent;
+    const arr = Array.from(pageHTML);
+    
+    const result = arr.reduce((acc, curr) => {
+      if(!parseInt(curr) && !isAlphabet(curr)) return acc;
+      let charIndex = acc.findIndex(el => el[curr.toLowerCase()]!=undefined);
+      if(charIndex === -1) {
+        let obj = Object.create(null);
+        obj[curr] = 0;
+        acc.push(obj);
+      } else {
+        acc[charIndex][curr.toLowerCase()]++;
+      }
+      return acc;
+    }, []);
+
+    function isAlphabet(char) {
+      let ascii = char.charCodeAt(0);
+      if(ascii>=97 && ascii<=122 || ascii>=65 && ascii<=90)
+        return true;
+      return false;
+    }
+
+    console.log(result);
+
+  </script>
+</body>
+
+</html>
