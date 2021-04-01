@@ -17,3 +17,5 @@
 
 ## Events
 * `event.target` will result in actual target whereas `event.currentTarget` will return the parent on which event listener is attatched
+*  `event.stopPropagation`: it will stop the traversing of nodes and their event listeners
+* [`IntersectionObserver`](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API): a class, it takes a callback and observers an element assigned by method `.observer(element)` 

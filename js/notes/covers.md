@@ -22,3 +22,6 @@
 * Node.removeEventListener  
 * event.target and event.currentTarget
 * event.stopPropagation
+* event.key, event.keyCode
+* events: `click`, `keyUp`, `keyDown`, `scroll`
+* Intersection Observer
